@@ -10,11 +10,11 @@ import VideoSection from './sections/videosection/VideoSection';
 gsap.registerPlugin(ScrollSmoother, ScrollTrigger);
 import { useEffect, useState } from 'react';
 import Loader from './component/Loader';
-
 import ClippathSection from './sections/clippathsection/ClippathSection';
 import Products from './sections/products/Products';
 import Footer from './component/Footer';
 import Navbar from './component/Navbar';
+
 
 const App = () => {
 
@@ -36,7 +36,6 @@ const App = () => {
   return (
     <>
       <Navbar />
-
       <div id="smooth-wrapper w-full overflow-hidden">
         <div id="smooth-content w-full ">
           <Herosection />
