@@ -43,7 +43,7 @@ const Layout2 = ({ items }) => {
             {/* Top Buttons */}
             <div className='absolute bottom-8 right-[30px] z-[2] flex items-center justify-center gap-[20px]'>
                 <button
-                    className="cursor-pointer bg-white text-black p-1 rounded-[10px] active:scale-95"
+                    className="cursor-pointer bg-white text-black p-1 rounded-[10px] active:scale-95 underline font-bold"
                     onClick={() => dispatch(addToCart(items))}
                     title='Add To Cart'
                 >
