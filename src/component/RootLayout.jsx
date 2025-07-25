@@ -1,7 +1,6 @@
 import { Outlet, useNavigationType } from "react-router-dom";
 import { useEffect } from "react";
-import Navbar from "./Navbar";
-import Footer from "./Footer";
+
 
 const RootLayout = () => {
     const navigationType = useNavigationType();
@@ -25,9 +24,9 @@ const RootLayout = () => {
 
     return (
         <>
-            <Navbar />
+
             <Outlet />
-            {/* <Footer /> */}
+
         </>
     );
 };
