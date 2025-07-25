@@ -13,7 +13,8 @@ import Loader from './component/Loader';
 import ClippathSection from './sections/clippathsection/ClippathSection';
 import Products from './sections/products/Products';
 import Footer from './component/Footer';
-import Navbar from './component/Navbar';
+import Nav from './component/Nav';
+
 
 
 const App = () => {
@@ -35,7 +36,7 @@ const App = () => {
 
   return (
     <>
-      <Navbar />
+      <Nav />
       <div id="smooth-wrapper w-full overflow-hidden">
         <div id="smooth-content w-full ">
           <Herosection />

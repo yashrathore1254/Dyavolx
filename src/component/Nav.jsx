@@ -6,7 +6,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import { FaUserCircle } from "react-icons/fa";
 import { logout } from "../Redux/slice/userSlice.jsx";
 
-export default function Navbar() {
+export default function Nav() {
     const user = useSelector((state) => state.user.loggedInUser)
     const data = useSelector((state) => state.favorites.items);
     const [scale, setScale] = useState(null)
