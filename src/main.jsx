@@ -33,9 +33,6 @@ const router = createBrowserRouter([
       }, {
         path: '/shipping',
         element: <Shipping />
-      }, {
-        path: '/privacy',
-        element: <Privacy />
       },
       {
         path: "/singlecard/:id",
