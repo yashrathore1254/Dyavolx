@@ -33,7 +33,7 @@ const Layout1 = ({ items }) => {
         <div ref={containerRef} className="w-full px-[10px] relative fadein opacity-100">
             {/* Favorite Button */}
             <div className='absolute bottom-4 right-[30px] z-[2] flex items-center justify-center gap-[20px]'>
-                <button className="cursor-pointer bg-white text-black p-1 rounded-[10px] active:scale-95 font-bold underline" onClick={() => dispatch(addToCart(items))} title='Add To Card'>Add To Click</button>
+                <button className="cursor-pointer bg-white text-black p-1 rounded-[10px] active:scale-95 font-bold underline" onClick={() => dispatch(addToCart(items))} title='Add To Card'>Add To Cart</button>
                 <button
                     onClick={() => dispatch(toggleFavorite(items.id))}
 
