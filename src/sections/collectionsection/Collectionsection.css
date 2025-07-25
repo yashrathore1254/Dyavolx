@@ -1,0 +1,136 @@
+.track {
+    z-index: 1;
+    border-top: 1px solid #000;
+    width: 100%;
+    height: 1000vh;
+    position: relative;
+    background-color: yellow;
+}
+
+.track .track_camera {
+    z-index: 2;
+    width: 100%;
+    height: 100vh;
+    position: sticky;
+    overflow: hidden;
+    top: 0;
+}
+
+.track_frame {
+    height: 100%;
+}
+
+.track .track_camera .track_frame .track_item {
+
+    justify-content: flex-start;
+    align-items: center;
+    width: 400vw;
+    background-color: rgba(42, 168, 31, 0.39);
+    height: 100%;
+    padding-left: 10rem;
+    display: flex;
+    position: relative;
+    transform: translate3d(0vw, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+}
+
+.div-block-15 {
+    z-index: 2;
+    grid-column-gap: 1.3rem;
+    grid-row-gap: 1.3rem;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+    position: relative;
+}
+
+.track .track_camera .track_frame .track_item .card-wrap {
+    height: 100%;
+    margin-left: 3.2rem;
+    display: flex;
+    position: relative;
+}
+
+.track .track_camera .track_frame .track_item .card-wrap .w-dyn-list {
+    width: 100%;
+
+}
+
+.track .track_camera .track_frame .track_item .card-wrap .w-dyn-list .w-dyn-item {
+    width: 100%;
+    height: 100%;
+}
+
+.track .track_camera .track_frame .track_item .card-wrap .w-dyn-list .w-dyn-item .card-1 {
+    top: 1rem;
+    width: 21rem;
+    height: 30rem;
+    position: absolute;
+
+}
+
+.card-img {
+    width: 100%;
+    height: 100%;
+    transform: scale3d(1, 1, 1) rotateZ(10deg);
+}
+
+.track .track_camera .track_frame .track_item .card-wrap .w-dyn-list .w-dyn-item .card-2 {
+    width: 21rem;
+    height: 31rem;
+    position: absolute;
+    inset: 4rem auto auto 40rem;
+}
+
+.track .track_camera .track_frame .track_item .card-wrap .w-dyn-list .w-dyn-item .card-3 {
+    width: 21rem;
+    height: 32rem;
+    position: absolute;
+    inset: 1.8rem auto auto 100rem;
+}
+
+.track .track_camera .track_frame .track_item .card-wrap .w-dyn-list .w-dyn-item .card-4 {
+    width: 21rem;
+    height: 31rem;
+    position: absolute;
+    inset: .4rem auto auto 200rem;
+}
+
+.track .track_camera .track_frame .track_item .card-wrap .w-dyn-list .w-dyn-item .card-1-img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.card-1_text,
+.card-2_text,
+.card-3_text,
+.card-4_text {
+    z-index: 3;
+    grid-column-gap: .15rem;
+    grid-row-gap: .15rem;
+    flex-flow: column;
+    display: flex;
+    position: absolute;
+}
+
+.card-1_text {
+    inset: auto auto 4rem 4.06rem;
+}
+
+.card-2_text {
+    inset: auto auto 2.56rem 5.42rem;
+}
+
+.card-3_text {
+    inset: auto auto 1.9rem 4.28rem;
+}
+
+.card-4_text {
+    inset: auto auto 1.9rem 4.28rem;
+}
+
+.card-2-img {
+    width: 100%;
+    height: 100%;
+
+}
